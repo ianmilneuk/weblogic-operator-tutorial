@@ -24,8 +24,8 @@ import="java.net.InetAddress"%>
 		message.append("<h2>Datasource properties</h2> ");
 		message.append("<p>");
 		if (jdbcDataSourceName == null || jdbcDataSourceName.length() == 0) {
-			message.append("<font color=\"red\">No datasource name provided.</font><br>");
-			message.append("<font color=\"red\">Append ?dsname=YOUR_DATA_SOURCE_NAME to the URL.</font>");
+			message.append("<font color=\"green\">No datasource name provided.</font><br>");
+			message.append("<font color=\"green\">Append ?dsname=YOUR_DATA_SOURCE_NAME to the URL.</font>");
 			message.append("</p>");
 		} else {
 			message.append("<b>Datasource name:</b> " + jdbcDataSourceName);
